@@ -131,7 +131,7 @@ let timeTrip = totalDistance / 55;
 //I want to make this better, with modular options
 let fuel = [
     [55, 30],
-    [60, 25],
+    [60, 28],
     [75, 23],
  ];
 for(let x=0;x<3;x++) {
