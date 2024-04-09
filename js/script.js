@@ -75,7 +75,7 @@ if(modFive) {
 else {
     console.log(`All numbers are NOT divisible by 5!`);
 }
-let firstBigger = (numbers[0] > numbers[-1]); //Is the first number bigger than the last number?
+let firstBigger = (numbers[0] > numbers[numbers.length-1]); //Is the first number bigger than the last number?
 if(firstBigger) {
     console.log(`The first number is Bigger than the last!`);
 }
